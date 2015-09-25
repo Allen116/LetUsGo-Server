@@ -39,5 +39,5 @@ public interface UserRestService {
 
     RegistrationResult registerUser(User user);
 
-    User test(User user);
+    ResultJSON test();
 }

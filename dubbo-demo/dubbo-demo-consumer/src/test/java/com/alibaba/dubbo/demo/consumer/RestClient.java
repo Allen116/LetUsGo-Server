@@ -39,9 +39,9 @@ public class RestClient {
 //                public void run() {
 //                    System.out.println("Starting thread " + index + "...");
 //                    for (int j = 0; j < 500; j++) {
-                        registerUser("http://localhost:" + port + "/services/users/test.xml", MediaType.TEXT_XML_TYPE);
+                        registerUser("http://localhost:" + port + "/services/users/test", MediaType.APPLICATION_JSON_TYPE);
 
-                        registerUser("http://localhost:" + port + "/services/users/register.xml", MediaType.TEXT_XML_TYPE);
+                        //registerUser("http://localhost:" + port + "/services/users/register.xml", MediaType.TEXT_XML_TYPE);
 //
 //                        getUser("http://localhost:" + port + "/services/users/1.json");
 //

@@ -64,7 +64,7 @@ public class AnnotationDrivenUserRestServiceImpl implements UserRestService {
     }
 
     @Override
-    public User test(User user) {
-      return user;
+    public ResultJSON test() {
+      return null;
     }
 }

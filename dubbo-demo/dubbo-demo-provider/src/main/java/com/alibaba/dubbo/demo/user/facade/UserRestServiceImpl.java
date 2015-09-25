@@ -70,8 +70,12 @@ public class UserRestServiceImpl implements UserRestService {
 
     @POST
     @Path("test")
-    public User test(User user) {
-        return user;
+    public ResultJSON test() {
+
+        ResultJSON json = new ResultJSON();
+
+        json.setObj(new User(1L,"Test"));
+        return json;
     }
 
 
